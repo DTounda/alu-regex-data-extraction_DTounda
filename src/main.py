@@ -51,3 +51,4 @@ if __name__ == "__main__":
     print(extract_url(text_content))
     print(get_credit_card_numbers(text_content))
 
+
