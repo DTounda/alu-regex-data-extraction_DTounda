@@ -25,7 +25,7 @@ def extract_phone_numbers(text_content):
     """
     Extract from the text phone numbers who are in the correct format 
     """
-    pattern = r"(\+|0)[0-9]{1,3}(?:[\s\-\(\)]*[0-9]+)+"
+    pattern = r"(?:\+|0)[0-9]{1,3}(?:[\s\-\(\)]*[0-9]+)+"
     return re.findall(pattern,text_content)
 
 def extract_url(text_content):
