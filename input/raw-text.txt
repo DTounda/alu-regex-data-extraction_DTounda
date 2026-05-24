@@ -1,0 +1,169 @@
+=== SUPPORT TICKET SYSTEM LOG EXPORT ===
+Generated: 2026-05-20 14:32:07 | System: HelpDesk Pro v3.2 | Export requested by: admin@alueducation.com
+WARNING: Some records may be incomplete due to a sync error on 2026-05-18 between 03:00-03:47 AM
+Total records pulled: 52 | Displaying: 12 | Filtered: 40 (archived)
+===========================================
+
+[TICKET#10041] [OPEN] [PRIORITY: HIGH]
+ts=2026-05-19T08:35:22Z
+customer_name: James Okafor
+contact: j.okafor@gmail.com | +1 (415) 555-0192
+issue_summary: Cannot access student portal — getting 403 error on login page
+ref: https://portal.alueducation.com/login?redirect=dashboard&session=null
+assigned_to: support-bot@alueducation.com
+---activity_log---
+08:36 AM - Auto-response sent to j.okafor@gmail.com
+08:41 AM - Agent pulled ticket. Verified account status: ACTIVE
+09:02 AM - Reset link dispatched. Customer confirmed receipt via phone +1 (415) 555-0192
+09:15 AM - RESOLVED
+
+[TICKET#10042] [OPEN] [PRIORITY: CRITICAL]
+ts=2026-05-19T09:12:44Z
+customer_name: Amina Diallo
+contact: a.diallo@alumni.alueducation.com | +250 788 123 456
+issue_summary: Unauthorized charge on card. Customer disputes transaction of $149.00 at 11:47 PM
+card_on_file: 4111111111111111
+ref: https://billing.alueducation.com/invoices/2026/INV-00392
+assigned_to: billing@alueducation.com
+---activity_log---
+09:14 AM - Ticket escalated to billing team
+09:30 AM - Agent notes: customer very upset, mentioned card 4111111111111111 charged twice
+09:45 AM - Fraud check initiated. Ref: http://bit.ly/3xFakeLink (shortened — verify before opening)
+10:02 AM - Customer called back on +250 788 123 456. Still unresolved.
+10:15 AM - Chargeback form sent to a.diallo@alumni.alueducation.com
+
+[TICKET#10043] [CLOSED]
+ts=2026-05-19T13:45:00Z
+customer_name: Luca Mensah
+contact: luca.mensah@outlook.com | 0788-456-789
+issue_summary: Certificate not generated after SE-201 completion. Student frustrated.
+ref: https://learn.alueducation.com/courses/se-201/certificate
+assigned_to: academics@si.alueducation.com
+---activity_log---
+13:47 - Agent reviewed enrollment record. Completion date confirmed.
+14:10 - Backend team notified via internal ticket #BK-2291
+02:30 PM - Follow-up call with student. ETA given: 24hrs
+02:48 PM - Certificate manually triggered by admin. See: https://learn.alueducation.com/admin/cert-gen?id=luca-mensah-se201
+15:02 - CLOSED
+
+[TICKET#10044] [FLAGGED] [PRIORITY: CRITICAL]
+ts=2026-05-19T14:22:11Z
+customer_name: "user'; DROP TABLE tickets; --"
+contact: notareal@<script>alert(1)</script>.com | 000-000-0000
+issue_summary: Free access plz!!! also tried: <img src=x onerror=alert('xss')>
+ref: javascript:void(0)
+assigned_to: N/A
+---activity_log---
+14:22 - Intake system flagged malformed email and script injection in name field
+14:22 - Input sanitization triggered. Record isolated.
+14:23 - Security team notified. IP logged.
+NOTE: DO NOT process any data from this ticket. All fields treated as untrusted.
+
+[TICKET#10045] [OPEN] [PRIORITY: HIGH]
+ts=2026-05-19T10:05:33Z
+customer_name: Fatou Sy
+contact: fatou.sy@alueducation.com | +221 77 456 78 90
+issue_summary: Old payment card still being charged after update request submitted 3 weeks ago
+card_on_file: 5500005555555559
+ref: https://account.alueducation.com/settings/payment
+assigned_to: payments@alueducation.com
+---activity_log---
+10:07 AM - Agent confirmed old card 5500005555555559 still active in system
+10:18 AM - New card 4012888888881881 submitted by customer for replacement
+10:19 AM - NOTE: new card details received over chat — flagged for PCI review
+10:45 AM - Card update pushed to payment processor
+11:00 AM - Confirmation sent to fatou.sy@alueducation.com
+
+[TICKET#10046] [OPEN]
+ts=2026-05-19T16:03:19Z
+customer_name: Kevin Otieno
+contact: kevin.otieno@student.com | +254 700 234 567
+issue_summary: Mentor session link returning 404. Meeting was supposed to start at 03:00 PM
+ref: https://mentorship.alueducation.com/sessions/k-otieno-may2026
+assigned_to: mentors@alueducation.com
+---activity_log---
+16:05 - Agent tested link — confirmed broken
+16:12 - New Zoom session created: https://zoom.us/j/98234710234
+16:13 - Link sent to kevin.otieno@student.com and backup k.otieno.backup@gmail.com
+16:20 - Customer joined late at 03:15 PM. Session completed.
+16:45 - RESOLVED
+
+[TICKET#10047] [ESCALATED] [PRIORITY: HIGH]
+ts=2026-05-19T07:58:03Z
+customer_name: Sandra Nkosi
+contact: sandra.nkosi@alueducation.com | +27 82 345 6789
+issue_summary: AmEx card declined at checkout. Customer attempted payment at 07:45 AM
+card_on_file: 371449635398431
+ref: https://payments.alueducation.com/retry?token=abc123xyz&attempt=1
+assigned_to: billing@alueducation.com
+---activity_log---
+08:00 AM - Ticket auto-created from payment failure webhook
+08:14 AM - Customer called in. Confirmed card 371449635398431 is valid and not expired
+08:30 AM - Billing agent escalated to payment gateway team
+08:45 AM - Retry successful. Receipt sent to sandra.nkosi@alueducation.com
+09:01 AM - CLOSED
+
+[TICKET#10048] [OPEN] [PRIORITY: MEDIUM]
+ts=2026-05-19T11:20:57Z
+customer_name: Chidi Eze
+contact: chidi.eze99@yahoo.com | +234 803 456 7890
+issue_summary: Duplicate charge of $75.00 showing on statement. Not sure which card was used.
+assigned_to: billing@alueducation.com
+ref: *** MISSING — customer did not provide ***
+---activity_log---
+11:22 AM - Agent requested transaction ref from customer
+11:45 AM - Customer replied with partial card number: 4532...7865 (masked for security)
+12:00 PM - Agent could not locate transaction. Escalated.
+12:30 PM - Still unresolved. Follow-up set for 09:00 AM tomorrow.
+
+[TICKET#10049] [CLOSED]
+ts=2026-05-19T
+customer_name: [CORRUPTED RECORD - sync error 2026-05-18 03:22]
+contact: ??? | ???
+issue_summary: [DATA MISSING]
+ref: [DATA MISSING]
+assigned_to: [DATA MISSING]
+---activity_log---
+Record incomplete. Excluded from active queue. See archive ref: ARC-2026-0518-03
+
+[TICKET#10050] [OPEN] [PRIORITY: LOW]
+ts=2026-05-20T09:44:12Z
+customer_name: Marie Claire Uwimana
+contact: m.uwimana@alueducation.com | +250 722 987 654
+issue_summary: Login works but dashboard shows wrong cohort info. Minor display issue.
+ref: https://portal.alueducation.com/dashboard?user=mc-uwimana&cohort=2025B
+assigned_to: support-bot@alueducation.com
+---activity_log---
+09:45 AM - Auto-response sent
+10:00 AM - Agent reviewed. Bug logged under DEV-1823: https://github.com/alueducation/portal/issues/1823
+10:15 AM - Customer notified at m.uwimana@alueducation.com. Fix expected in next deploy.
+
+[TICKET#10051] [FLAGGED]
+ts=2026-05-20T10:11:03Z
+customer_name: Test User
+contact: admin@alueducation.com%0A%0ABCC:spam@malicious.com | +00 000 000 0000
+issue_summary: Test ticket — ignore
+ref: https://alueducation.com/%2e%2e/%2e%2e/etc/passwd
+assigned_to: N/A
+---activity_log---
+10:11 - Header injection attempt detected in contact field
+10:11 - Path traversal attempt detected in ref URL
+10:11 - FLAGGED. Security team alerted.
+
+[TICKET#10052] [OPEN] [PRIORITY: MEDIUM]
+ts=2026-05-20T11:55:44Z
+customer_name: Bright Mensah
+contact: bright.mensah@si.alueducation.com | +233 24 567 8901
+issue_summary: Cannot submit capstone project — upload fails at 98% every time
+ref: https://submissions.alueducation.com/capstone/upload?student=bright-mensah&term=2026A
+assigned_to: academics@si.alueducation.com
+---activity_log---
+11:57 AM - Agent reproduced issue in test environment
+12:10 PM - Escalated to DevOps. Ticket linked: https://github.com/alueducation/submissions/issues/204
+12:45 PM - DevOps identified file size cap bug. Fix in progress.
+01:30 PM - Still open. Customer pinged again at bright.mensah@si.alueducation.com
+
+=== END OF EXPORT ===
+For data handling inquiries contact: dataprotection@alueducation.com
+Full policy: https://alueducation.com/policies/data-handling-v2.1.pdf
+Export checksum: a3f9c21b | Records with errors: 1 (TICKET#10049)
